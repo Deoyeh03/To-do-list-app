@@ -1,0 +1,5 @@
+<form action="/edit-task/<%= data._id %>?_method=PUT" method="POST">
+    <label for="title"><b>Title</b></label>
+    <input type="text" placeholder="Todo Title" name="title" value="<%= data.title %>">
+    <button type="submit" value="Update">Save</button>
+</form>
